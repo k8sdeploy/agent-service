@@ -16,7 +16,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: containers.chewedfeed.com/k8sdeploy/agent-service
+          images: containers.chewed-k8s.net/k8sdeploy/agent-service
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{raw}}
