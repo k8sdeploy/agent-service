@@ -43,7 +43,7 @@ spec:
                 secretKeyRef:
                   name: agent-service-secrets
                   key: vault-token
-            - name: MONGO_COLLECTION_AGENT
+            - name: MONGO_COLLECTION_AGENTS
               valueFrom:
                 secretKeyRef:
                   name: agent-service-secrets
