@@ -13,7 +13,7 @@ require (
 	github.com/keloran/go-healthcheck v1.2.1
 	github.com/stretchr/testify v1.8.4
 	go.mongodb.org/mongo-driver v1.12.1
-	google.golang.org/grpc v1.58.0
+	google.golang.org/grpc v1.58.1
 )
 
 require (
