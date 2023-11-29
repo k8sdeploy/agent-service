@@ -90,6 +90,7 @@ func TestService_ValidateAgent(t *testing.T) {
 		valid, err := a.ValidateAgent("test", "test")
 		assert.NotNil(t, err)
 		assert.False(t, valid)
+		assert.Error(t, err)
 	})
 
 	t.Run("ValidateAgent_Error", func(t *testing.T) {
@@ -99,5 +100,6 @@ func TestService_ValidateAgent(t *testing.T) {
 		valid, err := a.ValidateAgent("test", "test")
 		assert.NotNil(t, err)
 		assert.False(t, valid)
+		assert.Error(t, err)
 	})
 }
