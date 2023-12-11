@@ -9,10 +9,10 @@ require (
 	github.com/google/uuid v1.4.0
 	github.com/hashicorp/vault/sdk v0.10.2
 	github.com/k8sdeploy/protobufs v0.0.0-20230923213413-7d6744bffeb3
-	github.com/keloran/go-config v0.4.0
+	github.com/keloran/go-config v0.4.1
 	github.com/keloran/go-healthcheck v1.2.1
 	github.com/stretchr/testify v1.8.4
-	go.mongodb.org/mongo-driver v1.13.0
+	go.mongodb.org/mongo-driver v1.13.1
 	google.golang.org/grpc v1.59.0
 )
 
@@ -36,7 +36,7 @@ require (
 	github.com/hashicorp/hcl v1.0.1-vault-5 // indirect
 	github.com/hashicorp/vault/api v1.10.0 // indirect
 	github.com/keloran/vault-helper v0.8.1 // indirect
-	github.com/klauspost/compress v1.17.3 // indirect
+	github.com/klauspost/compress v1.17.4 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/montanaflynn/stats v0.7.1 // indirect
