@@ -3,7 +3,7 @@ module github.com/k8sdeploy/agent-service
 go 1.21
 
 require (
-	github.com/bugfixes/go-bugfixes v0.9.7
+	github.com/bugfixes/go-bugfixes v0.9.8
 	github.com/go-chi/chi/v5 v5.0.10
 	github.com/go-chi/cors v1.2.1
 	github.com/google/uuid v1.4.0
