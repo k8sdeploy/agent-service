@@ -11,7 +11,7 @@ require (
 	github.com/k8sdeploy/protobufs v0.0.2
 	github.com/keloran/go-config v0.5.4
 	github.com/keloran/go-healthcheck v1.2.1
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.0
 	go.mongodb.org/mongo-driver v1.17.4
 	google.golang.org/grpc v1.75.0
 )
