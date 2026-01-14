@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/bugfixes/go-bugfixes v0.14.0
-	github.com/go-chi/chi/v5 v5.2.3
+	github.com/go-chi/chi/v5 v5.2.4
 	github.com/go-chi/cors v1.2.2
 	github.com/google/uuid v1.6.0
 	github.com/hashicorp/vault/sdk v0.21.0
